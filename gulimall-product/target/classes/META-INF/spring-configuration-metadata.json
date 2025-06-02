@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "gulimall.thread",
+      "type": "io.niceseason.gulimall.product.config.ThreadPoolConfigProperties",
+      "sourceType": "io.niceseason.gulimall.product.config.ThreadPoolConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gulimall.thread.core-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "io.niceseason.gulimall.product.config.ThreadPoolConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "gulimall.thread.keep-alive-time",
+      "type": "java.lang.Long",
+      "sourceType": "io.niceseason.gulimall.product.config.ThreadPoolConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "gulimall.thread.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "io.niceseason.gulimall.product.config.ThreadPoolConfigProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

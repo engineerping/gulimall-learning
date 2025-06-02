@@ -1,0 +1,41 @@
+autoDetectedPackages:
+- io.niceseason.common.constant
+- io.niceseason.common.constraints
+- io.niceseason.common.exception
+- io.niceseason.common.group
+- io.niceseason.common.to
+- io.niceseason.common.utils
+- io.niceseason.common.vo
+- io.niceseason.common.xss
+- io.niceseason.gulimall.auto
+- io.niceseason.gulimall.cart
+- io.niceseason.gulimall.coupon
+- io.niceseason.gulimall.gateway
+- io.niceseason.gulimall.member
+- io.niceseason.gulimall.order
+- io.niceseason.gulimall.product
+- io.niceseason.gulimall.search
+- io.niceseason.gulimall.third
+- io.niceseason.gulimall.ware
+- io.renren
+enableAutoDetect: true
+entryDisplayConfig:
+  excludedPathPatterns: []
+  skipJsCss: true
+funcDisplayConfig:
+  skipConstructors: false
+  skipFieldAccess: true
+  skipFieldChange: true
+  skipGetters: false
+  skipNonProjectPackages: false
+  skipPrivateMethods: false
+  skipSetters: false
+ignoreSameClassCall: null
+ignoreSamePackageCall: null
+includedPackagePrefixes: null
+includedParentClasses: null
+name: xcodemap-filter
+recordMode: all
+sourceDisplayConfig:
+  color: blue
+startOnDebug: false
